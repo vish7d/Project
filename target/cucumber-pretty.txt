@@ -1,0 +1,56 @@
+Feature: Kickstarter Explore
+
+  Scenario: exp01-Search projects using explore     [90m# Explore.feature:3[0m
+    [32mGiven [0m[32mI click on explore[0m                        [90m# Explore_testcase.i_click_on_explore()[0m
+    [32mWhen [0m[32mAnd click on one of the categories[0m         [90m# Explore_testcase.and_click_on_one_of_the_categories()[0m
+    [32mAnd [0m[32mAnd selecting some filters[0m                  [90m# Explore_testcase.and_selecting_some_filters()[0m
+    [32mAnd [0m[32mSelecting a project and backing the project[0m [90m# Explore_testcase.selecting_a_project_and_backing_the_project()[0m
+    [32mThen [0m[32mAnd return to home page[0m                    [90m# Explore_testcase.and_return_to_home_page()[0m
+Feature: Login Action
+
+  @tag1
+  Scenario: Login                                                         [90m# Login.feature:4[0m
+    [32mWhen [0m[32mUser Navigate to Login page[0m                                      [90m# Login1_testcase.user_Navigate_to_Login_page()[0m
+    [32mThen [0m[32mUser enters UserName and Password and Status is updated in excel[0m [90m# Login1_testcase.user_enters_UserName_and_Password_and_Status_is_updated_in_excel()[0m
+
+  @tag2
+  Scenario: Forgot Password                                  [90m# Login.feature:9[0m
+    [32mGiven [0m[32mUser is on Home Page[0m                               [90m# ForgotPassword_testcase.user_is_on_Home_Page()[0m
+    [32mWhen [0m[32mUser is Navigated to LogIn Page[0m                     [90m# ForgotPassword_testcase.user_is_Navigated_to_LogIn_Page()[0m
+    [32mThen [0m[32mUser enters Email and Status is updated in to excel[0m [90m# ForgotPassword_testcase.user_enters_Email_and_Status_is_updated_in_to_excel()[0m
+
+  @tag3
+  Scenario: Logout                 [90m# Login.feature:16[0m
+    [32mWhen [0m[32mUser is loggedin[0m          [90m# Logout_TestCase.user_is_loggedin()[0m
+    [32mThen [0m[32mUser should be logged out[0m [90m# Logout_TestCase.user_should_be_logged_out()[0m
+Feature: Search for kickstarter website
+
+  @srch01
+  Scenario: srch01- Do a valid search with a single keyword [90m# Search.feature:4[0m
+    [32mGiven [0m[32mI do a single keyword search for (...)[0m            [90m# Search_testcase.i_do_a_single_keyword_search_for()[0m
+    [32mWhen [0m[32mI click on the certain filters[0m                     [90m# Search_testcase.i_click_on_the_certain_filters()[0m
+    [32mAnd [0m[32mClick on certain project[0m                            [90m# Search_testcase.click_on_certain_project()[0m
+    [32mThen [0m[32mI see the project details and store in the excel[0m   [90m# Search_testcase.i_see_the_project_details_and_store_in_the_excel()[0m
+
+  @srch02
+  Scenario: srch01- Do a valid search with a multiple keyword [90m# Search.feature:11[0m
+    [32mGiven [0m[32mI do a multiple keyword search for (...)[0m            [90m# Search2_testcase.i_do_a_multiple_keyword_search_for()[0m
+    [32mWhen [0m[32mI click on certain filters[0m                           [90m# Search2_testcase.i_click_on_certain_filters()[0m
+    [32mAnd [0m[32mClick on certain projects[0m                             [90m# Search2_testcase.click_on_certain_projects()[0m
+    [32mThen [0m[32mProject details are stored in excel[0m                  [90m# Search2_testcase.project_details_are_stored_in_excel()[0m
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  @signUp
+  Scenario: Title of your scenario [90m# Signup.feature:5[0m
+    [32mWhen [0m[32mSign up page is open[0m      [90m# SignUp_testcase.sign_up_page_is_open()[0m
+    [32mThen [0m[32mDo the sign up actions[0m    [90m# SignUp_testcase.do_the_sign_up_actions()[0m
+@tag
+Feature: Start a new Project
+
+  @tag1
+  Scenario: Start Project                  [90m# StartProject.feature:5[0m
+    [32mGiven [0m[32mThe user should be logged in[0m     [90m# StartProject_TestCase.the_user_should_be_logged_in()[0m
+    [32mAnd [0m[32mStart project should be navigated[0m  [90m# StartProject_TestCase.start_project_should_be_navigated()[0m
+    [32mWhen [0m[32mEnter values to necessary fields.[0m [90m# StartProject_TestCase.enter_values_to_necessary_fields()[0m
+    [32mThen [0m[32mI validate the outcomes[0m           [90m# StartProject_TestCase.i_validate_the_outcomes()[0m

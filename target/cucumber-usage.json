@@ -1,0 +1,470 @@
+[
+  {
+    "source": "^And return to home page$",
+    "steps": [
+      {
+        "name": "And return to home page",
+        "aggregatedDurations": {
+          "average": 8.3647315,
+          "median": 8.3647315
+        },
+        "durations": [
+          {
+            "duration": 8.3647315,
+            "location": "Explore.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Navigate to Login page$",
+    "steps": [
+      {
+        "name": "User Navigate to Login page",
+        "aggregatedDurations": {
+          "average": 1.2809856,
+          "median": 1.2809856
+        },
+        "durations": [
+          {
+            "duration": 1.2809856,
+            "location": "Login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is loggedin$",
+    "steps": [
+      {
+        "name": "User is loggedin",
+        "aggregatedDurations": {
+          "average": 5.4397058,
+          "median": 5.4397058
+        },
+        "durations": [
+          {
+            "duration": 5.4397058,
+            "location": "Login.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is on Home Page$",
+    "steps": [
+      {
+        "name": "User is on Home Page",
+        "aggregatedDurations": {
+          "average": 4.4014775,
+          "median": 4.4014775
+        },
+        "durations": [
+          {
+            "duration": 4.4014775,
+            "location": "Login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^The user should be logged in$",
+    "steps": [
+      {
+        "name": "The user should be logged in",
+        "aggregatedDurations": {
+          "average": 6.2470661,
+          "median": 6.2470661
+        },
+        "durations": [
+          {
+            "duration": 6.2470661,
+            "location": "StartProject.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I validate the outcomes$",
+    "steps": [
+      {
+        "name": "I validate the outcomes",
+        "aggregatedDurations": {
+          "average": 0.7614581,
+          "median": 0.7614581
+        },
+        "durations": [
+          {
+            "duration": 0.7614581,
+            "location": "StartProject.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on explore$",
+    "steps": [
+      {
+        "name": "I click on explore",
+        "aggregatedDurations": {
+          "average": 23.6821681,
+          "median": 23.6821681
+        },
+        "durations": [
+          {
+            "duration": 23.6821681,
+            "location": "Explore.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see the project details and store in the excel$",
+    "steps": [
+      {
+        "name": "I see the project details and store in the excel",
+        "aggregatedDurations": {
+          "average": 0.3309291,
+          "median": 0.3309291
+        },
+        "durations": [
+          {
+            "duration": 0.3309291,
+            "location": "Search.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Project details are stored in excel$",
+    "steps": [
+      {
+        "name": "Project details are stored in excel",
+        "aggregatedDurations": {
+          "average": 0.3065925,
+          "median": 0.3065925
+        },
+        "durations": [
+          {
+            "duration": 0.3065925,
+            "location": "Search.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters UserName and Password and Status is updated in excel$",
+    "steps": [
+      {
+        "name": "User enters UserName and Password and Status is updated in excel",
+        "aggregatedDurations": {
+          "average": 15.2184542,
+          "median": 15.2184542
+        },
+        "durations": [
+          {
+            "duration": 15.2184542,
+            "location": "Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on certain projects$",
+    "steps": [
+      {
+        "name": "Click on certain projects",
+        "aggregatedDurations": {
+          "average": 6.2248229,
+          "median": 6.2248229
+        },
+        "durations": [
+          {
+            "duration": 6.2248229,
+            "location": "Search.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Selecting a project and backing the project$",
+    "steps": [
+      {
+        "name": "Selecting a project and backing the project",
+        "aggregatedDurations": {
+          "average": 10.4963763,
+          "median": 10.4963763
+        },
+        "durations": [
+          {
+            "duration": 10.4963763,
+            "location": "Explore.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^And click on one of the categories$",
+    "steps": [
+      {
+        "name": "And click on one of the categories",
+        "aggregatedDurations": {
+          "average": 2.4625128,
+          "median": 2.4625128
+        },
+        "durations": [
+          {
+            "duration": 2.4625128,
+            "location": "Explore.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter values to necessary fields\\.$",
+    "steps": [
+      {
+        "name": "Enter values to necessary fields.",
+        "aggregatedDurations": {
+          "average": 67.3259251,
+          "median": 67.3259251
+        },
+        "durations": [
+          {
+            "duration": 67.3259251,
+            "location": "StartProject.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Start project should be navigated$",
+    "steps": [
+      {
+        "name": "Start project should be navigated",
+        "aggregatedDurations": {
+          "average": 4.208745,
+          "median": 4.208745
+        },
+        "durations": [
+          {
+            "duration": 4.208745,
+            "location": "StartProject.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Sign up page is open$",
+    "steps": [
+      {
+        "name": "Sign up page is open",
+        "aggregatedDurations": {
+          "average": 1.913289,
+          "median": 1.913289
+        },
+        "durations": [
+          {
+            "duration": 1.913289,
+            "location": "Signup.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User should be logged out$",
+    "steps": [
+      {
+        "name": "User should be logged out",
+        "aggregatedDurations": {
+          "average": 3.3928606,
+          "median": 3.3928606
+        },
+        "durations": [
+          {
+            "duration": 3.3928606,
+            "location": "Login.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on the certain filters$",
+    "steps": [
+      {
+        "name": "I click on the certain filters",
+        "aggregatedDurations": {
+          "average": 6.8340499,
+          "median": 6.8340499
+        },
+        "durations": [
+          {
+            "duration": 6.8340499,
+            "location": "Search.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on certain project$",
+    "steps": [
+      {
+        "name": "Click on certain project",
+        "aggregatedDurations": {
+          "average": 6.2434538,
+          "median": 6.2434538
+        },
+        "durations": [
+          {
+            "duration": 6.2434538,
+            "location": "Search.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is Navigated to LogIn Page$",
+    "steps": [
+      {
+        "name": "User is Navigated to LogIn Page",
+        "aggregatedDurations": {
+          "average": 0.8071657,
+          "median": 0.8071657
+        },
+        "durations": [
+          {
+            "duration": 0.8071657,
+            "location": "Login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on certain filters$",
+    "steps": [
+      {
+        "name": "I click on certain filters",
+        "aggregatedDurations": {
+          "average": 6.7903078,
+          "median": 6.7903078
+        },
+        "durations": [
+          {
+            "duration": 6.7903078,
+            "location": "Search.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I do a multiple keyword search for \\(\\.\\.\\.\\)$",
+    "steps": [
+      {
+        "name": "I do a multiple keyword search for (...)",
+        "aggregatedDurations": {
+          "average": 3.4174595,
+          "median": 3.4174595
+        },
+        "durations": [
+          {
+            "duration": 3.4174595,
+            "location": "Search.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^And selecting some filters$",
+    "steps": [
+      {
+        "name": "And selecting some filters",
+        "aggregatedDurations": {
+          "average": 1.8421919,
+          "median": 1.8421919
+        },
+        "durations": [
+          {
+            "duration": 1.8421919,
+            "location": "Explore.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters Email and Status is updated in to excel$",
+    "steps": [
+      {
+        "name": "User enters Email and Status is updated in to excel",
+        "aggregatedDurations": {
+          "average": 13.7619973,
+          "median": 13.7619973
+        },
+        "durations": [
+          {
+            "duration": 13.7619973,
+            "location": "Login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Do the sign up actions$",
+    "steps": [
+      {
+        "name": "Do the sign up actions",
+        "aggregatedDurations": {
+          "average": 69.031719,
+          "median": 69.031719
+        },
+        "durations": [
+          {
+            "duration": 69.031719,
+            "location": "Signup.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I do a single keyword search for \\(\\.\\.\\.\\)$",
+    "steps": [
+      {
+        "name": "I do a single keyword search for (...)",
+        "aggregatedDurations": {
+          "average": 3.7627185,
+          "median": 3.7627185
+        },
+        "durations": [
+          {
+            "duration": 3.7627185,
+            "location": "Search.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

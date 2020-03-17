@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="274.549163">
+<testcase classname="Kickstarter Explore" name="exp01-Search projects using explore" time="46.847981">
+<system-out><![CDATA[Given I click on explore....................................................passed
+When And click on one of the categories.....................................passed
+And And selecting some filters..............................................passed
+And Selecting a project and backing the project.............................passed
+Then And return to home page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Action" name="Login" time="16.49944">
+<system-out><![CDATA[When User Navigate to Login page............................................passed
+Then User enters UserName and Password and Status is updated in excel.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Action" name="Forgot Password" time="18.97064">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User is Navigated to LogIn Page........................................passed
+Then User enters Email and Status is updated in to excel....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Action" name="Logout" time="8.832566">
+<system-out><![CDATA[When User is loggedin.......................................................passed
+Then User should be logged out..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search for kickstarter website" name="srch01- Do a valid search with a single keyword" time="17.171151">
+<system-out><![CDATA[Given I do a single keyword search for (...)................................passed
+When I click on the certain filters.........................................passed
+And Click on certain project................................................passed
+Then I see the project details and store in the excel.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search for kickstarter website" name="srch01- Do a valid search with a multiple keyword" time="16.739183">
+<system-out><![CDATA[Given I do a multiple keyword search for (...)..............................passed
+When I click on certain filters.............................................passed
+And Click on certain projects...............................................passed
+Then Project details are stored in excel....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Title of your scenario" time="70.945008">
+<system-out><![CDATA[When Sign up page is open...................................................passed
+Then Do the sign up actions.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Start a new Project" name="Start Project" time="78.543194">
+<system-out><![CDATA[Given The user should be logged in..........................................passed
+And Start project should be navigated.......................................passed
+When Enter values to necessary fields.......................................passed
+Then I validate the outcomes................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
