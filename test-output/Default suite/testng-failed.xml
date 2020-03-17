@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Tester.Search_testcase">
+        <methods>
+          <include name="i_click_on_the_certain_filters"/>
+          <include name="click_on_certain_project"/>
+          <include name="i_see_the_project_details_and_store_in_the_excel"/>
+          <include name="i_do_a_single_keyword_search_for"/>
+        </methods>
+      </class> <!-- com.Tester.Search_testcase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
